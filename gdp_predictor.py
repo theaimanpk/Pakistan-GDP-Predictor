@@ -85,7 +85,7 @@ try:
     plt.subplot(2, 2, 2)
     plt.scatter(years, population, color='purple', label='Historical Population')
     plt.plot(future_years, predicted_population_future, color='orange', label='Predicted Population Curve')
-    plt.scatter(milestone_years, milestone_population, color='red', marker='o', label='Milestone Predictions")
+    plt.scatter(milestone_years, milestone_population, color='red', marker='o', label='Milestone Predictions')
     plt.title("Pakistan Population Prediction")
     plt.xlabel("Year")
     plt.ylabel("Population (Millions)")
